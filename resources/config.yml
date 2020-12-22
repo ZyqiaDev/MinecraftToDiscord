@@ -1,0 +1,15 @@
+---
+# Example: weebhook: 753557515396055090/sLFE9Z_Hm-ekyZ5eMphYj8HKDOJnz_9bO24zJYWxWcYanbhAmhvxitdGfTVYfRPIg2j8
+weebhook: ""
+OnEnable: "Plugin Enabled"
+OnDisable: "Plugin Disabled"
+# {player} => The Player
+# {command} => The command the player executed
+# {rank} => The players rank, only compatible with pureperms
+# {msg} => The players message
+PurePermsExtension: "Enabled"
+CommandUse: "***[{player}]*** >> `/{command}`"
+PlayerJoin: "***[{player}]*** has joined"
+PlayerQuit: "***[{player}]*** has left"
+PlayerChat: "{rank} {player} >> {msg}"
+...

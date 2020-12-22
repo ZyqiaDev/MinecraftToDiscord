@@ -1,0 +1,8 @@
+---
+# @Zyqia#9178
+name: MCToDisc
+main: MinecraftToDiscord\MCToDisc
+author: Zyqia
+api: 3.0.0
+version: 1.0.0
+...
